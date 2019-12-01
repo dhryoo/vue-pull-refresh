@@ -218,7 +218,6 @@
     .pull-down-container {
         height: 100%;
         max-height: 100%;
-        background-color: #EBEEF1;
         overflow-y: auto;
     }
     .pull-down-header {
@@ -251,9 +250,9 @@
             &.pull-down-refresh {
                 background: url(./refresh-icon.png) no-repeat center center;
                 background-size: 20px 20px;
-                animation: rotate 2s infinite;
-                animation-timing-function: linear;
             }
+                /* animation: rotate 2s infinite; */
+                /* animation-timing-function: linear; */
             &.pull-down-error {
                 background: url(./error-icon.png) no-repeat center center;
                 background-size: 20px 20px;
