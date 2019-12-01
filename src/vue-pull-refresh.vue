@@ -218,6 +218,7 @@
     .pull-down-container {
         height: 100%;
         max-height: 100%;
+        background-color: #EBEEF1;
         overflow-y: auto;
     }
     .pull-down-header {
