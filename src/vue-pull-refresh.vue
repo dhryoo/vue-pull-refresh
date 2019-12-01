@@ -1,6 +1,7 @@
 <template>
     <div class="pull-down-container">
-        <div class="pull-down-header" v-bind:style="{'height': pullDown.height + 'px'}">
+        <!-- <div class="pull&#45;down&#45;header" v&#45;bind:style="{'height': pullDown.height + 'px'}"> -->
+        <div class="pull-down-header" style="{'height': '1000px'}">
             <div class="pull-down-content" :style="pullDownContentStyle">
                 <i class="pull-down-content--icon" v-bind:class="iconClass"></i>
                 <span class="pull-down-content--label">{{label}}</span>
@@ -18,7 +19,7 @@
     const STATUS_REFRESH = 2;
     // labels of pull down
     const LABELS = ['数据异常', '下拉刷新数据', '松开刷新数据', '数据刷新中...'];
-    const ANIMATION = 'height .2s ease';
+    const ANIMATION = 'height .3s ease';
 
     export default {
         props: {
@@ -224,7 +225,7 @@
         height: 0px;
         overflow: hidden;
         position: relative;
-        background-color: #2c3133;
+        background-color: #EBEEF1;
     }
     .pull-down-content {
         position: absolute;
