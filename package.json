@@ -15,12 +15,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/lakb248/vue-pull-refresh.git"
+    "url": "https://github.com/dhryoo/vue-pull-refresh.git"
   },
   "bugs": {
-    "url": "https://github.com/lakb248/vue-pull-refresh/issues"
+    "url": "https://github.com/dhryoo/vue-pull-refresh/issues"
   },
-  "author": "lakb248@gmail.com",
+  "author": "idfeelme@gmail.com",
   "license": "ISC",
   "dependencies": {
     "vue": "^2.0.1"
