@@ -234,7 +234,7 @@
         left: 50%;
         transform: translateX(-50%);
         height: 40px;
-        color: #d5d5d5;
+        color: #EBEEF1;
         text-align: center;
         border-left: 20px solid transparent;
         font-family: "noto-thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
